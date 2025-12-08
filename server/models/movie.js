@@ -9,6 +9,10 @@ const movieSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    character: {
+        type: String,
+        required: true
+    },
     createdAt: {
         type: Date,
         default: Date.now

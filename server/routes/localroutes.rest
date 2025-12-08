@@ -11,7 +11,8 @@ Content-Type: application/json
 
 {
   "title": "Avengers",
-  "genre": "Action"
+  "genre": "Action",
+  "character" : "Tony Stark"
 }
 
 ###
