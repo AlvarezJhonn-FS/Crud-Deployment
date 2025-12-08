@@ -10,6 +10,14 @@ POST http://localhost:8000/movie
 Content-Type: application/json
 
 {
-  "title": "Justice League",
-  "genra": "Action"
+  "title": "Avengers",
+  "genre": "Action"
 }
+
+###
+
+PUT http://localhost:8000/movie/69359ee00373fef006b9e3b3
+
+###
+
+DELETE http://localhost:8000/movie/69359ee00373fef006b9e3b3
