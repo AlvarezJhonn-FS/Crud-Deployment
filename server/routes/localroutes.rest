@@ -1,1 +1,15 @@
-GET http://localhost:8000/movies
+GET http://localhost:8000/movie
+
+###
+
+GET http://localhost:8000/movie/1234
+
+###
+
+POST http://localhost:8000/movie
+Content-Type: application/json
+
+{
+  "title": "Justice League",
+  "genra": "Action"
+}
